@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vertigo House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+        <div class="logo">
+            <img src="vertnewlogo.png" alt="Vertigo Design Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="brand.html">Vertigo House</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.</p>
+
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Budget</label>
+                    <input type="text" id="budget" name="budget" required placeholder="Your Budget">
+                </div>
+
+                <div class="form-group">
+                    <label for="request">Your Request</label>
+                    <textarea id="request" name="request" rows="6" required placeholder="Tell us your request or question..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vertigo House. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
